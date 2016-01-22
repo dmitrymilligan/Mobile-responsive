@@ -1,0 +1,448 @@
+/*720 px*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.know-1-320,
+.know-2-320,
+.know-3-320,
+.know-4-320,
+.burg-img,
+.lab-img,
+.tablet-image,
+.diagram,
+.about-bg-960,
+.tablet-image-960,
+.what-u-know-960,
+.about-view-960,
+.semi-info-960
+{
+  display: none;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 720px;
+  min-width: 720px;
+}
+
+header {
+  height: 352px;
+}
+
+ul > li {
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.lab-720 {
+ margin: 10px 0 0 50px;
+}
+
+.about {
+  height: 640px;
+  background: #f15834;
+  color: #fff;
+}
+
+.contacts {
+  height: 685px;
+  color: #485153;
+}
+
+.about-bg-720 {
+	margin: 43px 0 0 127px;
+}
+
+.num-code,
+.num {
+  font: 22px OpenSans-Semibold;
+}
+
+.num {
+  color: #999999;
+}
+
+.tel-number {
+	display: inline-block;
+  float: right;
+  margin: 47px 58px 0 0;
+}
+
+.how-create {
+	display: inline-block;
+  margin-left: 50px;
+}
+
+.how-create > .title {
+  font: 24px UniSansRegular;
+  color: #acacac;
+  margin: 94px 0 0 10px;
+  display: inline-block;
+}
+
+.clients {
+  font: 36px UniSansBold;
+  margin: 15px 0 0 10px;
+}
+
+.dark {
+  color: #373f41;
+}
+
+.tomato {
+  color: #f15834;
+}
+
+.br-320 {
+	display: none;
+}
+
+.about-title {
+  font: 30px UniSansRegular;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.bold {
+  font-family: UniSansBold;
+}
+
+.sans-book {
+  font-family: UniSansBook;
+}
+
+.semi-bold {
+  font-family: UniSansSemiBold;
+}
+
+.regular,
+.bold-320 {
+  font-family: UniSansRegular;
+}
+
+.u-know {
+	height: 375px;
+  margin-top: -19px;
+}
+
+.u-know > ul > li {
+	font-size: 18px;
+	display: inline-block;
+	height: 160px;
+  width: 300px;
+  float: left;
+}
+
+.u-know > ul > li > img {
+  margin-bottom: 19px;
+}
+
+.u-know > ul:nth-of-type(1) {
+	margin-left: 91px;
+  margin-top: 47px;
+}
+
+.u-know > ul > li:nth-of-type(3),
+.u-know > ul > li:nth-of-type(4) {
+	padding-top: 31px;
+	margin-top: 18px;
+}
+
+.contacts-title {
+  font-size: 23px;
+  text-align: center;
+  margin-top: 48px;
+}
+
+.form {
+  font: 18px UniSansRegular;
+  text-align: center;
+}
+
+.form-title {
+  display: inline-block;
+  margin-top: 31px;
+}
+
+.form input {
+  width: 330px;
+  height: 49px;
+  text-align: center;
+  margin: 10px;
+  font-size: 18px;
+  border: 1px solid #e2e2e2;
+}
+
+form .operator,
+.form .code {
+  width: 68px;;
+  margin: 4px;
+}
+
+.form .phone-six-nums {
+  width: 160px;
+  margin: 5px;
+}
+
+::-webkit-input-placeholder {
+  font: 17px UnisansRegular;
+  color: #636363;
+}
+
+::-moz-placeholder {
+  font-size: 17px;
+  font-family: UnisansRegular;
+  color: #636363;
+}
+
+:-moz-placeholder {
+  font-size: 17px;
+  color: #636363;
+}
+
+:ms-input-placeholder {
+  font: 17px UnisansRegular;
+  color: #636363;
+}
+
+#form {
+	width: 398px;
+  margin: 0 auto;
+}
+
+#send {
+  margin-top: 26px;
+  height: 64px;
+  background: #f15834;
+  outline-color: transparent;
+  border: none;
+  font: 20px UniSansSemiBold;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+}
+
+.tip {
+  font: 16px UniSansRegular;
+  color: #6a7071;
+  margin-top: 14px;
+}
+
+.tip:before {
+  content: "*";
+  color: #f15834;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.urgent {
+  text-align: center;
+  margin-top: 70px;
+  line-height: 30px;
+}
+
+.important {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.text {
+  color: #aeaeae;
+  font-size: 17px;
+  margin: 20px 0 0 10px;
+  text-align: justify;
+}
+
+.info {
+  width: 475px;
+  margin: 0 auto;
+}
+
+
+.info-text {
+  font-size: 24px;
+}
+
+.info-2 {
+ height: 1205px;
+ font-size: 30px;
+
+}
+
+.left {
+  margin-top: 150px;
+}
+
+.left-text-720 {
+  display: inline-block;
+  text-align: left;
+  line-height: 43px;
+  margin-left: 19px;
+}
+
+.text {
+  color: #aeaeae;
+  font-size: 22px;
+  margin: 20px 0 0 10px;
+  text-align: justify;
+}
+
+.tablet-image-720 {
+  float: right;
+  margin-top: -84px;
+}
+
+.doit-title {
+  font-size: 38px;
+  text-align: center;
+  clear: both;
+  line-height: 50px;
+  width: 535px;
+  margin: 0 auto;
+}
+
+.doit {
+  margin-top: 152px;
+  clear: both;
+}
+
+.diagram-720 {
+  display: block;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.about-view {
+  font-size: 20px;
+  margin: 22px 0 0 142px;
+  display: inline-block;
+}
+
+.semi-info {
+  font-size: 18px;
+  margin: 22px 0 0 142px;
+}
+
+.semi-info:before {
+  content: "*";
+  color: #f15834;
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.get-access {
+  height: 458px;
+  background: #f15834;
+  font-size: 25px;
+  color: #fff;
+  line-height: 40px;
+}
+
+.black {
+  color: #000;
+}
+
+#get-access-btn {
+  width: 610px;
+  height: 106px;
+  background: #fff;
+  outline-color: transparent;
+  border: none;
+  font: 26px UniSansSemiBold;
+  color: #f15834;
+  padding-top: 13px;
+  margin: 0 auto;
+  margin-top: 42px;
+  text-transform: uppercase;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+  border-radius: 60px;
+}
+
+.btn-name {
+ margin-top: 29px;
+ display: inline-block;
+}
+
+footer {
+ height: 470px;
+ font-family: UniSansRegular;
+ color: #9fa0a0;
+ font-size: 16px;
+ text-align: center;
+}
+
+footer a {
+  color: #9fa0a0;
+  text-decoration: underline;
+}
+
+.copyrights {
+ margin: 40px auto;
+ text-align: center;
+ line-height: 28px;
+ width: 581px;
+
+}
+
+footer ul > li {
+	list-style: none;
+  display: inline-block;
+  width: 163px;
+  text-align: left;
+  margin: 0 18px;
+}
+
+footer ul > li:nth-of-type(3),
+footer ul > li:nth-of-type(4) {
+	width: 100px;
+}
+
+
+.our-contacts, .phones {
+  line-height: 40px;
+}
+
+.lawyer {
+  padding-top: 76px;
+}
+
+.partner-btn {
+  width: 216px;
+  height: 40px;
+  background: white;
+  border: 1px solid #f15834;
+  color: #f15834;
+  margin-top: 72px;
+  cursor: pointer;
+}
+
+.what-u-know {
+  width: 420px;
+}
+
+.click-text {
+  width: 577px;
+  margin: 0 auto;
+}

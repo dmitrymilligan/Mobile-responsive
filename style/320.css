@@ -1,0 +1,408 @@
+/*320 px*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.know-1-720,
+.know-2-720,
+.know-3-720,
+.know-4-720,
+.lab-720,
+.about-bg-720,
+.bottle-720,
+.tablet-image-720,
+.diagram-720,
+.br-720,
+.btn-img-bottle,
+.about-bg-960,
+.tablet-image-960,
+.what-u-know-960,
+.about-view-960,
+.semi-info-960 {
+  display: none;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 320px;
+  min-width: 320px;
+}
+
+header {
+  height: 271px;
+}
+
+.lab-img {
+  margin: 12px 0 0 2px;
+  float: left;
+}
+
+.burg-img {
+  margin-left: 14px;
+  float: left;
+  margin-top: 34px;
+}
+
+.num-code,
+.num {
+  font: 22px OpenSans-Semibold;
+}
+
+.tel-number {
+  display: inline-block;
+  margin: 27px 0 0 30px;
+}
+
+.num-code {
+  color: #000;
+}
+
+.num {
+  color: #999999;
+}
+
+.tel {
+  height: 92px;
+  background: #fff;
+}
+
+.how-create {
+  height: 179px;
+  background: #f0f3f4;
+}
+
+.how-create > .title {
+  font: 19px UniSansRegular;
+  color: #acacac;
+  margin: 33px 0 0 10px;
+  display: inline-block;
+}
+
+.clients {
+  font: 23px UniSansBold;
+  margin: 15px 0 0 10px;
+}
+
+.black {
+  color: #000;
+}
+
+.dark {
+  color: #373f41;
+}
+
+.tomato {
+  color: #f15834;
+}
+
+.about {
+  height: 516px;
+  background: #f15834;
+}
+
+.about-title {
+  font: 22px UniSansRegular;
+  color: #fff;
+  display: inline-block;
+  margin: 33px;
+  text-align: center;
+}
+
+ul > li {
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bold,
+.bold-320 {
+  font-family: UniSansBold;
+}
+
+.sans-book {
+  font-family: UniSansBook;
+}
+
+.semi-bold {
+  font-family: UniSansSemiBold;
+}
+
+.regular {
+  font-family: UniSansRegular;
+}
+
+.know-text {
+  display: inline-block;
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+.u-know {
+  color: #fff;
+}
+
+.u-know img {
+  vertical-align: top;
+  margin: 0 14px 0 10px;
+}
+
+.contacts {
+  height: 615px;
+  color: #485153;
+}
+
+.contacts-title {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 48px;
+  display: inline-block;
+}
+
+#form {
+  display: inline-block;
+  margin-top: 21px;
+}
+
+.form {
+  font: 17px UniSansRegular;
+  text-align: center;
+}
+
+.form-title {
+  display: inline-block;
+  margin-top: 31px;
+}
+
+.form input {
+  width: 300px;
+  height: 49px;
+  text-align: center;
+  margin: 10px;
+  font-size: 18px;
+  border: 1px solid #cacaca;
+}
+
+.form .operator,
+.form .code {
+  width: 50px;
+  margin: 4px;
+}
+
+.form .phone-six-nums {
+  width: 160px;
+  margin: 5px;
+}
+
+::-webkit-input-placeholder {
+  font: 17px UnisansRegular;
+  color: #636363;
+}
+
+::-moz-placeholder {
+  font-size: 17px;
+  font-family: UnisansRegular;
+  color: #636363;
+}
+
+:-moz-placeholder {
+  font-size: 17px;
+  color: #636363;
+}
+
+
+:ms-input-placeholder {
+  font: 17px UnisansRegular;
+  color: #636363;
+}
+
+#send {
+  margin-top: 26px;
+  height: 64px;
+  background: #f15834;
+  outline-color: transparent;
+  border: none;
+  font: 20px UniSansSemiBold;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+
+}
+
+.tip {
+  font: 16px UniSansRegular;
+  color: #6a7071;
+  margin-top: 14px;
+}
+
+.tip:before {
+  content: "*";
+  color: #f15834;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+
+.urgent {
+  text-align: center;
+  margin-top: 70px;
+  line-height: 30px;
+}
+
+.info {
+ display: inline-block;
+ height: 220px;
+ width: 220px;
+}
+
+.info-text {
+  font-size: 20px;
+}
+
+.important {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.left {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.text {
+  color: #aeaeae;
+  font-size: 17px;
+  margin: 20px 0 0 10px;
+  text-align: justify;
+}
+
+.tablet-image {
+  margin: 30px auto;
+  display: block;
+}
+
+
+.info-2 {
+ height: 1055px;
+ font-size: 22px;
+}
+
+.semi-info {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.semi-info:before {
+  content: "*";
+  color: #f15834;
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.doit-title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.diagram {
+  margin-top: 68px;
+}
+
+.about-view {
+  font-size: 18px;
+  margin-top: 22px;
+}
+
+.get-access {
+ height: 285px;
+ background: #f15834;
+ font-size: 18px;
+ color: #fff;
+}
+
+#get-access-btn {
+  width: 292px;
+  height: 33px;
+  background: #fff;
+  outline-color: transparent;
+  border: none;
+  font: 15px UniSansSemiBold;
+  color: #f15834;
+  padding-top: 13px;
+  margin: 0 auto;
+  margin-top: 42px;
+  text-transform: uppercase;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+}
+
+footer {
+ height: 542px;
+ font-family: UniSansRegular;
+ color: #9fa0a0;
+ font-size: 14px;
+ text-align: center;
+}
+
+footer a {
+  color: #9fa0a0;
+  text-decoration: underline;
+  line-height: 25px;
+}
+
+.copyrights {
+ padding-top: 40px;
+ text-align: center;
+ line-height: 28px;
+}
+
+.text-decor {
+  text-decoration: underline;
+}
+
+.our-contacts, .phones {
+  padding-top: 40px;
+  line-height: 25px;
+}
+
+.lawyer {
+  padding-top: 58px;
+}
+
+.partner-btn {
+  width: 216px;
+  height: 40px;
+  background: white;
+  border: 1px solid #f15834;
+  color: #f15834;
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+.what-u-know {
+  line-height: 24px;
+  width: 255px;
+}
+
+.click-text {
+  width: 274px;
+  margin: 0 auto;
+  line-height: 22px;
+  padding-top: 18px;
+}

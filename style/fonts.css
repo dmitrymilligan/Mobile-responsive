@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "OpenSans-Semibold";
+  src: url(fonts/OpenSans-Semibold.ttf);
+}
+
+@font-face {
+  font-family: "UniSansRegular";
+  src: url(fonts/UniSansRegular.otf);
+}
+
+@font-face {
+  font-family: "UniSansBold";
+  src: url(fonts/UniSansBold.otf);
+}
+
+@font-face {
+  font-family: "UniSansSemiBold";
+  src: url(fonts/UniSansSemiBold.otf);
+}
+
+@font-face {
+  font-family: "UniSansBook";
+  src: url(fonts/UniSansBook.otf);
+}
